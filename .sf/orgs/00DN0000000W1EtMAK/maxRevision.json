@@ -1,0 +1,65 @@
+{
+  "serverMaxRevisionCounter": 65,
+  "sourceMembers": {
+    "Profile__Admin": {
+      "serverRevisionCounter": 1,
+      "lastRetrievedFromServer": null,
+      "memberType": "Profile",
+      "isNameObsolete": false
+    },
+    "ApexClass__ContactController": {
+      "serverRevisionCounter": 2,
+      "lastRetrievedFromServer": 2,
+      "memberType": "ApexClass",
+      "isNameObsolete": false
+    },
+    "CustomTab__LWC_React_Hello_World": {
+      "serverRevisionCounter": 9,
+      "lastRetrievedFromServer": 9,
+      "memberType": "CustomTab",
+      "isNameObsolete": false
+    },
+    "StaticResource__app": {
+      "serverRevisionCounter": 61,
+      "lastRetrievedFromServer": 61,
+      "memberType": "StaticResource",
+      "isNameObsolete": false
+    },
+    "FlexiPage__LWC_React_Hello_World": {
+      "serverRevisionCounter": 8,
+      "lastRetrievedFromServer": 8,
+      "memberType": "FlexiPage",
+      "isNameObsolete": false
+    },
+    "PermissionSet__LWC_React": {
+      "serverRevisionCounter": 10,
+      "lastRetrievedFromServer": 10,
+      "memberType": "PermissionSet",
+      "isNameObsolete": false
+    },
+    "LightningComponentBundle__lwcReactContainer": {
+      "serverRevisionCounter": 62,
+      "lastRetrievedFromServer": 62,
+      "memberType": "LightningComponentBundle",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__lwcReactContainer/lwcReactContainer.html": {
+      "serverRevisionCounter": 63,
+      "lastRetrievedFromServer": 63,
+      "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__lwcReactContainer/lwcReactContainer.js": {
+      "serverRevisionCounter": 64,
+      "lastRetrievedFromServer": 64,
+      "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__lwcReactContainer/lwcReactContainer.js-meta.xml": {
+      "serverRevisionCounter": 65,
+      "lastRetrievedFromServer": 65,
+      "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    }
+  }
+}

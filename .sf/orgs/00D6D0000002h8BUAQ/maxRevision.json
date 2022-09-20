@@ -1,5 +1,5 @@
 {
-  "serverMaxRevisionCounter": 17,
+  "serverMaxRevisionCounter": 27,
   "sourceMembers": {
     "Profile__Admin": {
       "serverRevisionCounter": 1,
@@ -20,8 +20,8 @@
       "isNameObsolete": false
     },
     "StaticResource__app": {
-      "serverRevisionCounter": 17,
-      "lastRetrievedFromServer": 17,
+      "serverRevisionCounter": 27,
+      "lastRetrievedFromServer": 27,
       "memberType": "StaticResource",
       "isNameObsolete": false
     },

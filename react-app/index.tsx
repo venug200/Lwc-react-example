@@ -1,11 +1,9 @@
 import * as React from "react";
 import * as ReactDOM from "react-dom";
-import "./index.scss";
+import "./styles.css";
 
-import { Hello, HelloProps } from "./components/Hello";
+import { Hello } from "./components/Hello";
 
-(window as any).mount = (el: any, injected: HelloProps) => {
-  console.log(injected);
-
-  ReactDOM.render(<Hello {...injected} />, el);
+(window as any).mount = (el: any) => {
+  ReactDOM.render(<Hello />, el);
 };
