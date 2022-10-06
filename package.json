@@ -5,24 +5,36 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "npx webpack react-app && cp dist/main.js force-app/main/default/staticresources/app.js",
-    "deploy": "npm run build && sfdx force:source:push"
+    "build": "npx webpack react-app && cp ./dist/main.js force-app/main/default/staticresources/app.js",
+    "deploy": "npm run build && sfdx force:source:push -f"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@types/react": "^16.8.23",
     "@types/react-dom": "^16.8.4",
+    "css-loader": "^5.2.7",
+    "resolve-url-loader": "^4.0.0",
+    "sass-loader": "^10.1.1",
     "source-map-loader": "^0.2.4",
+    "style-loader": "^2.0.0",
     "ts-loader": "^6.0.4",
     "typescript": "^3.5.3",
     "webpack": "^4.36.1",
     "webpack-cli": "^3.3.6"
   },
   "dependencies": {
+    "@carbon/grid": "^11.5.0",
+    "@carbon/icons-react": "^11.7.0",
     "@salesforce-ux/design-system": "^2.9.4",
     "@salesforce/design-system-react": "^0.10.9",
+    "carbon-components": "^10.58.1",
+    "carbon-components-react": "^8.12.0",
+    "carbon-icons": "^7.0.7",
+    "ng-carbon-components-react": "^7.53.0-rc.6",
+    "ng-carbon-styles-components": "^1.0.6",
     "react": "16.8.3",
-    "react-dom": "^16.8.6"
+    "react-dom": "^16.8.6",
+    "sass": "^1.51.0"
   }
 }
